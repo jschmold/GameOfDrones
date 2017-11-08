@@ -75,7 +75,7 @@ export class Drone extends EventEmitter {
             let ret = Location.closest(loc, drA.Position, drB.Position)
             if(ret == drA.Position)
                 return -1
-            if(ret == drA.Position)
+            if(ret == drB.Position)
                 return 1
             return 0
         }).slice(0, amt)
