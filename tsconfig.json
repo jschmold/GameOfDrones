@@ -1,0 +1,14 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "allowUnreachableCode": false,
+        "alwaysStrict": true,
+        "lib": [
+            "esnext"
+        ],
+        "moduleResolution": "node",
+        "target": "es5",
+        "pretty": false,
+        "outDir": "./build"
+    }
+}
